@@ -1,0 +1,349 @@
+body{
+    max-width: 100%;
+    max-height: 100%;
+    margin: 0 auto;
+    box-sizing: border-box;
+    font-family: sans-serif;
+    background-color:#fafafb;
+}
+header{
+    background-color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 30px;
+}
+.header-l{
+    display: flex;
+    align-items: center;
+}
+.header-l a{
+    font-weight:bold;
+    margin: 0px 3px;
+}
+
+/*--header-left--*/
+
+.header-c a{
+    letter-spacing: -0.2px;
+     font-size: 12px;
+     margin: 0px 14px;
+     color: rgb(85, 83, 83);
+}
+.find-job{
+    color: blue !important;
+    font-weight: bold;
+}
+
+/*--header-center--*/
+
+.header-r{
+    display: flex;
+    align-items: center;
+}
+.header-r img{
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    margin: 5px;
+}
+.nasim{
+    font-weight: 600;
+    font-size: 14px;
+}
+.connrct-deveope{
+    border-right: 2px solid darkgray;
+    padding-right: 5px;
+}
+.carte-down{
+    margin-left: 9px;
+}
+
+/*--header--*/
+
+.firstnav{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr ;
+    column-gap: 1px;
+    margin: 30px;
+}
+.secondnav{
+    background-color: white;
+     display: flex;
+     flex-direction: row;
+     justify-content: center;
+     align-items: center;
+     border-top-left-radius: 15px;
+     border-bottom-left-radius: 15px;
+}
+.secondnav span{
+    color: blue;
+    margin-right: 5px;
+}
+.secondnav a{
+    font-size: 12px;
+    text-align: center;
+    color: blue;
+    margin: 5px;
+    padding: 4px 10px;
+    border: 1px solid lightgray;
+    border-radius: 5px;
+}
+
+/*--second-nav-bar-left--*/
+.wholearr{
+    display: flex;
+    flex-direction: row;
+}
+
+.thirdnav{
+    background-color: white;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+   
+}
+.thirdnav a{
+      font-weight: bold;
+      margin: 5px;
+}
+
+.fourthnav{
+    background-color: white;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+   
+}
+.fourthnav a{
+    color: slategray;
+}
+.fourthnav span{
+    color: blue;
+   margin-right: 5px;
+}
+.fifthnav{
+    background-color: white;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 19px;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+   
+}
+.fifthnav span{
+    color: blue;
+    margin-right: 5px;
+}
+.fifthnav a{
+    color: slategray;
+
+}
+.fifthnav button{
+    padding: 25px;
+    color: white;
+    background-color: blue;
+    border-style: none;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+
+/*--seconf-nav-bar--*/
+
+   section{
+           display: grid;
+           grid-template-columns: 20% 25% calc(55% - 80px);
+           column-gap: 40px;
+           padding: 30px;
+   }
+   .job-clock{
+       background-color:#d7e6fa;
+       border-radius: 15px;
+       padding: 15px;
+   }
+   .job-clock h5{
+       margin-top: 8px;
+       margin-bottom: 8px;
+       font-size: 16px;
+   }
+   .job-clock p{
+       margin-top: 8px;
+       font-size: 14px;
+       color: rgb(76, 81, 85);
+   }
+   .job-clock input{
+       padding: 9px 15px;
+       border-style: none;
+       border-radius: 5px;
+       margin-top: px;
+       margin-bottom: 8px;
+     
+   }
+   .job-clock button{
+       padding: 6px 9px;
+       color: white;
+       background-color: blue;
+       border-style: none;
+       border-radius: 5px;
+   }
+
+
+   /*--job-alert--*/
+.employment1 ul{
+    padding: 0px;
+    margin: 30px 0px;
+}
+.employment1 ul li{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+    font-size: 14px;
+    color: rgb(82, 76, 76);
+}
+.employment1 a{
+   padding: 2px;
+   border-radius: 5px;
+   font-size: smaller;
+   font-weight: bold;
+   background-color: #ebebeb;
+}
+.click-blue{
+    color: blue;
+    background-color: rgb !important;
+}
+.caret{
+    background-color: transparent !important;
+}
+.check-boxes{
+     margin-right: 5px;
+}
+.heading{
+    font-weight: bold;
+}
+
+   /*--section-left--*/
+
+   .description{
+       padding: px;
+       background-color: rgb(255, 255, 255);
+      
+       margin: 10px;
+       border: 0.5px ;
+       height:300px;
+       width:900px;
+    
+      
+   }
+   .description-top{
+       /* display: flex; */
+       justify-content: space-between;
+      align-items: flex-start;
+   }
+   .description-top small{
+       color: gray;
+       font-size: x-small;
+   }
+   .description-top img{
+       border-radius: 5px;
+       margin-right: 12px;
+       margin-top: 4px;
+
+   }
+   .description-topone{
+    /* display: flex; */
+    align-items: flex-start;
+}
+.description-topone p{
+    margin-top: 8px;
+    font-weight: bold;
+}
+   .description-bottom{
+       display: flex;
+       justify-content: space-between;
+   }
+   .description-bottom-one a{
+       font-size: small;
+       margin: 0px 3px;
+       padding: 6px;
+       background-color: rgb(231, 230, 229);
+       border-radius: 5px;
+   }
+   .hearting{
+           margin-top: 8px;
+           padding: 4px;
+           border-radius: 5px;
+           border: 1px solid rgb(228, 226, 226);
+   }
+   #hearting{
+    padding: 5px;
+    border: 1px solid#1114e7;
+   }
+   .red{
+       color: red;
+   }
+   .purpel{
+       color: blueviolet;
+   }
+   .blue{
+       font-weight: bold;
+       font-size: small;
+       color: #2b2ecf;
+       margin-right: 5px;
+   }
+   #bllue{
+       box-shadow: 5px 5px 5px 0 lightblue; 
+       color:white;
+       background-color:#2b2ecf;
+   }
+   #bllue small{
+        color: rgb(197, 194, 194);
+   }
+   #bllue a{
+       background-color:#575ad8;
+       color: white;
+       margin:10px
+   }
+   .mid{
+    display:flex;
+   
+    
+    
+   }
+   .mid1{
+    display:flex;
+    
+    
+   }
+   .mid2{
+    display:flex;
+    width:800px;
+    height:900px;
+    
+   }
+
+   .midd{
+    width:800px;
+   }
+   /* .description-bottom-two{
+    width: 20px;
+    height: 5px; */
+   /* } */
+   .anchor1{ 
+    background-color: blue;
+    color: white;
+    padding:10px;
+    margin:5px;
+
+   }
+   .anchor{ 
+    background-color: blue;
+    color: white;
+    padding:10px;
+    margin:5px;
+    
+   }
